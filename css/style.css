@@ -1,0 +1,66 @@
+.red{
+    background-color: red;
+    height: 200px;
+    width: 500px;
+}
+.blue{
+    background-color: blue;
+    height: 200px;
+    width: 500px;
+}
+.green{
+    background-color: green;
+    height: 200px;
+    width: 500px;
+}
+
+ul.list-inline.custom_ul {
+    text-align: center;
+}
+
+li.list-inline-item {
+    border: 1px solid aqua;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+li.list-inline-item.active{
+    color: aliceblue;
+    background-color: purple;
+    border: none;
+}
+
+.dimg{
+    position: relative;
+    overflow: hidden;
+}
+.dimg img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: -99%;
+    background: aqua;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    transition: .8s;
+}
+.dimg:hover .overlay{
+    left: 0;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+/* .demo img{
+    
+} */
+
